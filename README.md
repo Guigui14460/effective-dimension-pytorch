@@ -1,6 +1,6 @@
 # Effective dimension in PyTorch
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/examples/notebooks/effective_dimension.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Guigui14460/effective-dimension-pytorch/blob/master/examples/notebooks/effective_dimension.ipynb)
 
 Implementation test of the [Abbas' et al] paper available on [arXiv](https://arxiv.org/abs/2112.04807). The initial implementation are available here :
 - [amyami187/effective_dimension](https://github.com/amyami187/effective_dimension)
@@ -52,7 +52,7 @@ python example/scripts/mnist.py
 ```sh
 jupyter lab
 ```
-And go `notebooks/effective_dimension.ipynb` or you can run it via [Google Colab](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/examples/notebooks/effective_dimension.ipynb).
+And go `notebooks/effective_dimension.ipynb` or you can run it via [Google Colab](https://colab.research.google.com/github/Guigui14460/effective-dimension-pytorch/blob/master/examples/notebooks/effective_dimension.ipynb).
 
 ## License
 Project under the Apache-2.0 license (same as [amyami187/effective_dimension](https://github.com/amyami187/effective_dimension) and [amyami187/local_effective_dimension](https://github.com/amyami187/local_effective_dimension) repositories).
