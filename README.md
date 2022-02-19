@@ -25,19 +25,19 @@ You need to have at least Python 3.8 installed on your machine to run the code.
 ### Without environment
 You can install the required packages with this command :
 ```sh
-pip3 install numpy scipy, torch, nngeometry # at least
-pip3 install torchvision # previous command + this one to run the MNIST example
-pip3 install jupyterlab # previous commands + this one to run MNIST example with Jupyter Notebook
+$ pip3 install numpy scipy, torch, nngeometry # at least
+$ pip3 install torchvision # previous command + this one to run the MNIST example
+$ pip3 install jupyterlab # previous commands + this one to run MNIST example with Jupyter Notebook
 ```
 **Note :** for Windows systems, change `pip3` to `pip`.
 
 ### With environment
 You can simply install the packages with this command (make sure that `pipenv` is already installed) :
 ```sh
-pipenv install
-pipenv shell
-pip install torchvision # previous commands + this one to run the MNIST example
-pip install jupyterlab # previous commands + this one to run MNIST example with Jupyter Notebook
+$ pipenv install
+$ pipenv shell
+$ pip install torchvision # previous commands + this one to run the MNIST example
+$ pip install jupyterlab # previous commands + this one to run MNIST example with Jupyter Notebook
 ```
 
 ## Commands
@@ -45,12 +45,12 @@ Make sure that your environment is activated if you choose to use it.
 
 - To run the script example :
 ```sh
-python example/scripts/mnist.py
+$ python example/scripts/mnist.py
 ```
 
 - To run the notebook example :
 ```sh
-jupyter lab
+$ jupyter lab
 ```
 And go `notebooks/effective_dimension.ipynb` or you can run it via [Google Colab](https://colab.research.google.com/github/Guigui14460/effective-dimension-pytorch/blob/master/examples/notebooks/effective_dimension.ipynb).
 
