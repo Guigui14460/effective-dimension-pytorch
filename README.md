@@ -6,6 +6,8 @@ Implementation test of the [Abbas' et al] paper available on [arXiv](https://arx
 
 About the **local** effective dimension (go check the implementation at [amyami187/local_effective_dimension](https://github.com/amyami187/local_effective_dimension)), its goal is the same as the global effective dimension but it only analyzes the training result and not the large number of parameters set and can be applied to Machine Learning models too.
 
+**:warning: Important note :** when the effective dimension is printed, more it is, better is the model generalization.
+
 The [NNGeometry](https://nngeometry.readthedocs.io/en/latest/) package allow to efficiently compute the [Fisher information matrix](https://www.wikiwand.com/en/Fisher_information) with a [Kronecker-factored approximation](https://arxiv.org/abs/1602.01407) technique to succeed calculations without storing all the Fisher matrix in memory.
 
 **Important :** on the example notebook, some math explanation (to see the simplification in the paper) is available so you can go check that !
