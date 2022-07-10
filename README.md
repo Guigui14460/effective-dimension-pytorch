@@ -2,11 +2,9 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Guigui14460/effective-dimension-pytorch/blob/master/examples/notebooks/effective_dimension.ipynb)
 
-Implementation test of the [Abbas' et al] paper available on [arXiv](https://arxiv.org/abs/2112.04807). The initial implementations are available here :
-- [amyami187/effective_dimension](https://github.com/amyami187/effective_dimension)
-- [amyami187/local_effective_dimension](https://github.com/amyami187/local_effective_dimension)
+Implementation test of the [Abbas' et al] paper available on [arXiv](https://arxiv.org/abs/2112.04807). The initial implementation is available at [amyami187/effective_dimension](https://github.com/amyami187/effective_dimension). The goal of this metric is to estimate the size of that model occupies in the model's parameters space and checks the generalisation error of the evaluated model.
 
-The first objective of the paper is to create a capacity formula that quantify the number of parameters that are truely active in a statistical model that can be **classical** or **quantum**.
+About the **local** effective dimension (go check the implementation at [amyami187/local_effective_dimension](https://github.com/amyami187/local_effective_dimension)), its goal is the same as the global effective dimension but it only analyzes the training result and not the large number of parameters set and can be applied to Machine Learning models too.
 
 The [NNGeometry](https://nngeometry.readthedocs.io/en/latest/) package allow to efficiently compute the [Fisher information matrix](https://www.wikiwand.com/en/Fisher_information) with a [Kronecker-factored approximation](https://arxiv.org/abs/1602.01407) technique to succeed calculations without storing all the Fisher matrix in memory.
 
